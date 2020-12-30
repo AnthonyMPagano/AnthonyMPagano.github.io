@@ -1,12 +1,15 @@
 .navbar-dropdown {
-  left: 0;
-  padding: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: all 0.45s ease;
-  z-index: 1030;
-  background: #282828; }
+left: 0;
+right: 0;
+top: 0;
+padding: 0;
+background: @menuBgColor;
+background-image:
+url("file:///C:/Users/apagano/Documents/Github/AnthonyMPagano.github.io/assets/images/21276_kill2_resized_1350_2.png");
+transition: all 0.45s ease;
+z-index: 1030;
+min-height: 150px;
+}
   .navbar-dropdown .navbar-logo {
     margin-right: 0.8rem;
     transition: margin 0.3s ease-in-out;
@@ -201,7 +204,7 @@
     position: relative;
     padding: 1.5625rem 1.5625rem 0 1.5625rem; }
     .nav-dropdown-sm .nav-btn::before {
-      border-top: 1px dotted rgba(255, 255, 255, 0.1);
+      border-top: 1px dotted rgba(255, 255, 255,0.1);
       content: "";
       left: 0;
       position: absolute;
