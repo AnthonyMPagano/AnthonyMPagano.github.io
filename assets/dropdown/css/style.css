@@ -5,7 +5,7 @@ top: 0;
 padding: 0;
 background: @menuBgColor;
 background-image:
-url("https://github.com/AnthonyMPagano/AnthonyMPagano.github.io/blob/master/assets/images/21276_kill2_resized_1350_2.png");
+url("https://github.com/AnthonyMPagano/AnthonyMPagano.github.io/blob/master/assets/images/21276_kill2_resized_1350_2.png?raw=true");
 transition: all 0.45s ease;
 z-index: 1030;
 min-height: 150px;
